@@ -1,0 +1,21 @@
+html {
+    background-color: aliceblue;
+}
+
+h1,a,p {
+   font-family:raleway;
+}
+
+h1{
+    text-align: center;
+}
+
+p {
+    margin-left: auto;
+    padding: 0 20px 20px 20px;
+}
+
+a {
+    padding: 10px 60px 10px 60px;
+    color: black;
+}
