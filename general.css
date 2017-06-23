@@ -1,30 +1,39 @@
 html {
-    background-color: aliceblue;
+    background-color: #242E35;
 }
 
-h1,a,p,h2 {
-   font-family:raleway;
+h1,a,p,h2,#tab {
+   font-family:'Roboto';
 }
 
 h1{
     text-align: left;
-    position: relative;
-    top:10px;
-    left: 60px;
-    padding: 0px 0 0px 0px;
+    position: absolute;
+    top:-35px;
+    left: 20px;
+    font-size: 65px;
+    color:#EEEEE7;
 }
 
 p {
-    margin-left: auto;
-    padding: 20px 20px 20px 60px;
+    position:relative;
+    left:30px;
+    top:0px;
+    padding: 10px 20px 0px 30px;
 }
 
-a {
-    padding: 10px 60px 10px 60px;
+.contact_links{
+    width: 900px;
+    height: 45px;
+}
+
+.contact_links a {
+    padding: 10px 90px 10px 30px;
     position: relative;
     top: 10px;
-    color: darkslategray;
+    color: #242E35;
     font-size: 20px;
+
 }
 
 h2 {
@@ -32,4 +41,25 @@ h2 {
     position:absolute;
     top: 10px;
     right:60px;
+}
+
+#rectangle{
+    position:absolute;
+    left: 7px;
+    width: 745px;
+    bottom: 50px;
+    top: 95px;
+    background:#9aaeab;
+    z-index: -9999;
+}
+
+#tab{
+    position: absolute;
+    left: 5px;
+    right: 5px;
+    bottom: 0px;
+    top:138px;
+    background:#adc4c0;
+    padding: 15px 15px 15px 20px;
+    color: darkslategray;
 }
