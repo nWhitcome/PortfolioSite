@@ -15,20 +15,13 @@ h1{
     color:#EEEEE7;
 }
 
-p {
-    position:relative;
-    left:30px;
-    top:0px;
-    padding: 10px 20px 0px 30px;
-}
-
 .contact_links{
     width: 900px;
     height: 45px;
 }
 
 .contact_links a {
-    padding: 10px 90px 10px 30px;
+    padding: 10px 40px 10px 18px;
     position: relative;
     top: 10px;
     color: #242E35;
@@ -45,9 +38,9 @@ h2 {
 
 #rectangle{
     position:absolute;
-    left: 7px;
-    width: 745px;
-    bottom: 50px;
+    left: 8px;
+    right:8px;
+    height:45px;
     top: 95px;
     background:#9aaeab;
     z-index: -9999;
@@ -55,11 +48,37 @@ h2 {
 
 #tab{
     position: absolute;
-    left: 5px;
-    right: 5px;
-    bottom: 0px;
+    left: 8px;
+    right: 8px;
+    bottom: 8px;
     top:138px;
     background:#adc4c0;
-    padding: 15px 15px 15px 20px;
+    padding: 15px 15px 15px 18px;
     color: darkslategray;
+}
+
+.arrow-one, .arrow-two, .arrow-three, .arrow-four {
+    position: absolute;
+    bottom: 0px;
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 10px solid #adc4c0;
+}
+
+.arrow-one{
+    left: 0px;
+}
+
+.arrow-two {
+    left: 117px;
+}
+
+.arrow-three {
+    left: 252px;
+}
+
+.arrow-four {
+    left: 367px;
 }
