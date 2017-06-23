@@ -9,10 +9,11 @@ h1,a,p,h2,#tab {
 h1{
     text-align: left;
     position: absolute;
-    top:-35px;
-    left: 20px;
+    top:-12px;
+    left: 10px;
     font-size: 65px;
     color:#EEEEE7;
+    z-index: -;
 }
 
 .contact_links{
@@ -21,9 +22,9 @@ h1{
 }
 
 .contact_links a {
-    padding: 10px 40px 10px 18px;
+    padding: 5px 40px 5px 18px;
     position: relative;
-    top: 10px;
+    top: 4px;
     color: #242E35;
     font-size: 20px;
 
@@ -40,10 +41,10 @@ h2 {
     position:absolute;
     left: 8px;
     right:8px;
-    height:45px;
-    top: 95px;
+    height:32px;
+    top: 105px;
     background:#9aaeab;
-    z-index: -9999;
+    z-index: -1000;
 }
 
 #tab{
@@ -51,34 +52,19 @@ h2 {
     left: 8px;
     right: 8px;
     bottom: 8px;
-    top:138px;
+    top:135px;
     background:#adc4c0;
     padding: 15px 15px 15px 18px;
     color: darkslategray;
 }
 
-.arrow-one, .arrow-two, .arrow-three, .arrow-four {
+.arrow-one{
     position: absolute;
     bottom: 0px;
+    left:0px;
     width: 0; 
     height: 0; 
     border-left: 5px solid transparent;
     border-right: 20px solid transparent;
     border-bottom: 10px solid #adc4c0;
-}
-
-.arrow-one{
-    left: 0px;
-}
-
-.arrow-two {
-    left: 117px;
-}
-
-.arrow-three {
-    left: 252px;
-}
-
-.arrow-four {
-    left: 367px;
 }
