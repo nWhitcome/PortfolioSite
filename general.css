@@ -9,11 +9,11 @@ h1,a,p,h2,#tab {
 h1{
     text-align: left;
     position: absolute;
-    top:-12px;
+    top:-30px;
     left: 10px;
     font-size: 65px;
     color:#EEEEE7;
-    z-index: -;
+    text-shadow: 2px 2px #000000;
 }
 
 .contact_links{
@@ -22,19 +22,12 @@ h1{
 }
 
 .contact_links a {
-    padding: 5px 40px 5px 18px;
+    padding: 5px 25px 5px 25px;
     position: relative;
     top: 4px;
-    color: #242E35;
-    font-size: 20px;
+    color: #EEEEE7;
+    font-size: 19px;
 
-}
-
-h2 {
-    text-align: right;
-    position:absolute;
-    top: 10px;
-    right:60px;
 }
 
 #rectangle{
@@ -43,8 +36,9 @@ h2 {
     right:8px;
     height:32px;
     top: 105px;
-    background:#9aaeab;
+    background:#708c87;
     z-index: -1000;
+    box-shadow: 2px 2px #000000;
 }
 
 #tab{
@@ -60,7 +54,7 @@ h2 {
 
 .arrow-one{
     position: absolute;
-    bottom: 0px;
+    bottom: -1px;
     left:0px;
     width: 0; 
     height: 0; 
