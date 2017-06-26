@@ -17,23 +17,23 @@ h1{
 }
 
 .contact_links{
-    width: 900px;
-    height: 45px;
+    width: 411px;
+    height: 30px;
 }
 
 .contact_links a {
-    padding: 5px 25px 5px 25px;
+    padding: 5px 20px 5px 20px;
     position: relative;
     top: 4px;
     color: #EEEEE7;
     font-size: 19px;
-
+    text-shadow: 1px 1px #435451
 }
 
 #rectangle{
     position:absolute;
     left: 8px;
-    right:8px;
+    width: 410px;
     height:32px;
     top: 105px;
     background:#708c87;
@@ -48,17 +48,20 @@ h1{
     bottom: 8px;
     top:135px;
     background:#adc4c0;
-    padding: 15px 15px 15px 18px;
-    color: darkslategray;
+    padding: 15px 15px 15px 20px;
+    color: #242E35;
+    font-size: 16px;
+    box-shadow: 2px 2px #000000;
+    text-shadow: 1px 1px #9bb0ac;
 }
 
 .arrow-one{
     position: absolute;
-    bottom: -1px;
+    bottom: 0px;
     left:0px;
     width: 0; 
     height: 0; 
     border-left: 5px solid transparent;
-    border-right: 20px solid transparent;
-    border-bottom: 10px solid #adc4c0;
+    border-right: 25px solid transparent;
+    border-bottom: 8px solid #adc4c0;
 }
