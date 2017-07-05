@@ -16,6 +16,16 @@ h1{
     text-shadow: 2px 2px #000000;
 }
 
+h2{
+    text-align: left;
+    position: absolute;
+    top:-5px;
+    right: 130px;
+    font-size: 20px;
+    color:#EEEEE7;
+    text-shadow: 2px 2px #000000;
+}
+
 .contact_links{
     width: 411px;
     height: 30px;
@@ -33,7 +43,7 @@ h1{
 #rectangle{
     position:absolute;
     left: 8px;
-    width: 410px;
+    width: 205px;
     height:32px;
     top: 105px;
     background:#708c87;
@@ -64,4 +74,14 @@ h1{
     border-left: 5px solid transparent;
     border-right: 25px solid transparent;
     border-bottom: 8px solid #adc4c0;
+}
+
+#picture_box{
+    position:absolute;
+    right:15px;
+    top:15px;
+    background:#708c87;
+    width: 105px;
+    height:105px;
+    box-shadow: 2px 2px #000000;
 }
