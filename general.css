@@ -2,7 +2,7 @@ html {
     background-color: #242E35;
 }
 
-h1,a,p,h2,#tab {
+h1,a,p,h2,#tab,h3 {
    font-family:'Roboto';
 }
 
@@ -14,15 +14,26 @@ h1{
     font-size: 65px;
     color:#EEEEE7;
     text-shadow: 2px 2px #000000;
+    white-space:nowrap;
 }
 
 h2{
     text-align: left;
     position: absolute;
-    top:-5px;
+    top:0px;
     right: 130px;
-    font-size: 20px;
+    font-size: 23px;
     color:#EEEEE7;
+    text-shadow: 2px 2px #000000;
+}
+
+h3{
+    text-align: right;
+    position: absolute;
+    top:35px;
+    right: 130px;
+    font-size: 13px;
+    color:#d6d6cf;
     text-shadow: 2px 2px #000000;
 }
 
@@ -85,3 +96,5 @@ h2{
     height:105px;
     box-shadow: 2px 2px #000000;
 }
+
+.obfuscate { unicode-bidi: bidi-override; direction: rtl; }
