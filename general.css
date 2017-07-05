@@ -10,7 +10,7 @@ h1{
     text-align: left;
     position: absolute;
     top:-30px;
-    left: 10px;
+    left: 17px;
     font-size: 65px;
     color:#EEEEE7;
     text-shadow: 2px 2px #000000;
@@ -53,7 +53,7 @@ h3{
 
 #rectangle{
     position:absolute;
-    left: 8px;
+    left: 15px;
     width: 205px;
     height:32px;
     top: 105px;
