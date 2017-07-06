@@ -11,7 +11,21 @@ h1,a,p,h2,#tab,h3 {
    font-family:'Roboto';
 }
 
+h1{
+    margin: 0px;
+    left:15px;
+    top:15px;
+    position: absolute;
+    text-align: left;
+    font-size: 65px;
+    color:#EEEEE7;
+    text-shadow: 2px 2px #000000;
+    white-space: nowrap;
+    z-index: -150;
+}
+
 h2{
+    top:-2px;
     padding-right: 120px;
     position: relative;
     text-align: right;
@@ -24,7 +38,7 @@ h2{
 h3{
     padding-right: 120px;
     position:relative;
-    top:-23px;
+    top:-22px;
     text-align:right;
     font-size: 13px;
     color:#d6d6cf;
@@ -33,7 +47,7 @@ h3{
 }
 
 .contact_links{
-    width: 411px;
+    width: 185px;
     height: 30px;
 }
 
@@ -77,6 +91,7 @@ h3{
     top: 15px;
     height: 120px;
     background: #242E35;
+    padding-left: 10px;
 }
 
 .arrow-one{
