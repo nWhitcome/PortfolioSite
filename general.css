@@ -2,6 +2,11 @@ html {
     background-color: #242E35;
 }
 
+body{  
+    min-width:400px;
+    overflow: hidden;
+}
+
 h1,a,p,h2,#tab,h3 {
    font-family:'Roboto';
 }
@@ -13,6 +18,7 @@ h2{
     font-size: 23px;
     color:#EEEEE7;
     text-shadow: 2px 2px #000000;
+    white-space: nowrap;
 }
 
 h3{
@@ -23,6 +29,7 @@ h3{
     font-size: 13px;
     color:#d6d6cf;
     text-shadow: 2px 2px #000000;
+    white-space: nowrap;
 }
 
 .contact_links{
@@ -84,9 +91,10 @@ h3{
 }
 
 .picture_box{
-    top: 15px;
-    right: 15px;
-    position: fixed;
+    top:8px;
+    right:8px;
+    float: right;
+    position: relative;
     background: #708c87;
     width: 105px;
     height: 105px;
@@ -94,7 +102,3 @@ h3{
 }
 
 .obfuscate { unicode-bidi: bidi-override; direction: rtl; }
-
-.profile_picture{
-    
-}
