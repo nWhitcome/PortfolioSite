@@ -20,16 +20,18 @@ body{
     #article_box{ width:48%; }
  }
 
-@media screen and (max-width: 420px){
+@media screen and (max-width: 400px){
     h2 { top: 9px; }
     h3 { top: -10px; }
  }
 
-@media screen and (min-width: 420px){
+@media screen and (min-width: 400px){
     h2 { top: 14px; }
     h3 { top: -5px; }
  }
 
+
+/* Format for the text on the page */
 h1,a,p,h2,#tab,h3,h4 {
    font-family:'Roboto';
 }
@@ -79,12 +81,11 @@ h4{
 
 p{
     font-size: 16px;
-    text-indent: 40px;
     margin-top: 5px;
 }
 
-#article_box{
 
+#article_box{
     margin:0 auto;
     margin-right: 1%;
     margin-left: 1%;
