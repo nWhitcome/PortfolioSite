@@ -13,11 +13,19 @@ body{
  }
 
 @media screen and (max-width: 720px){
-    #article_box{ width:98%; }
+    #article_box{ 
+        width:94%;
+        margin-right: 3%;
+        margin-left: 3%;
+    }
  }
 
 @media screen and (min-width: 720px){
-    #article_box{ width:48%; }
+    #article_box{
+        width:48%;
+        margin-right: 1%;
+        margin-left: 1%;
+    }
  }
 
 @media screen and (max-width: 400px){
@@ -86,9 +94,6 @@ p{
 
 
 #article_box{
-    margin:0 auto;
-    margin-right: 1%;
-    margin-left: 1%;
     float:left;
 }
 
@@ -123,7 +128,6 @@ p{
     bottom: 8px;
     top:135px;
     background:#adc4c0;
-    padding: 0px 15px 15px 5px;
     color: #242E35;
     font-size: 16px;
     box-shadow: 2px 2px #000000;
