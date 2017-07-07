@@ -3,12 +3,46 @@ html {
 }
 
 body{  
-    min-width:400px;
+    min-width:310px;
     overflow: hidden;
 }
 
-h1,a,p,h2,#tab,h3 {
+/* Queries that change the layout of the page based on the view */
+@media screen and (max-width: 560px){
+    h1 { display: none; }
+ }
+
+@media screen and (max-width: 720px){
+    #article_box{ width:98%; }
+ }
+
+@media screen and (min-width: 720px){
+    #article_box{ width:48%; }
+ }
+
+@media screen and (max-width: 420px){
+    h2 { top: 9px; }
+    h3 { top: -10px; }
+ }
+
+@media screen and (min-width: 420px){
+    h2 { top: 14px; }
+    h3 { top: -5px; }
+ }
+
+h1,a,p,h2,#tab,h3,h4 {
    font-family:'Roboto';
+}
+
+h2,h3,.contact_links a,.picture_box,.pro_pic{
+    position:relative;
+}
+
+h2,h3{
+    padding-right: 120px;
+    text-shadow: 2px 2px #000000;
+    white-space: nowrap;
+    text-align: right;
 }
 
 h1{
@@ -17,55 +51,66 @@ h1{
     top:15px;
     position: absolute;
     text-align: left;
-    font-size: 65px;
     color:#EEEEE7;
+    font-size: 65px;
     text-shadow: 2px 2px #000000;
     white-space: nowrap;
     z-index: -150;
 }
 
 h2{
-    top:-2px;
-    padding-right: 120px;
-    position: relative;
-    text-align: right;
+    margin-top: 0px;
     font-size: 23px;
     color:#EEEEE7;
-    text-shadow: 2px 2px #000000;
-    white-space: nowrap;
 }
 
 h3{
-    padding-right: 120px;
-    position:relative;
-    top:-22px;
-    text-align:right;
+    margin-top: 0px;
     font-size: 13px;
     color:#d6d6cf;
-    text-shadow: 2px 2px #000000;
-    white-space: nowrap;
+}
+
+h4{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    color:#242E35;
+}
+
+p{
+    font-size: 16px;
+    text-indent: 40px;
+    margin-top: 5px;
+}
+
+#article_box{
+
+    margin:0 auto;
+    margin-right: 1%;
+    margin-left: 1%;
+    float:left;
 }
 
 .contact_links{
+    margin-top: 0px;
     width: 185px;
-    height: 30px;
+    height: 25px;
 }
 
 .contact_links a {
-    padding: 5px 0px 5px 20px;
-    position: relative;
-    top: 4px;
+    padding: 5px 0px 2px 20px;
+    top: 3px;
     color: #EEEEE7;
-    font-size: 19px;
+    font-size: 18px;
     text-shadow: 1px 1px #435451
 }
 
 #rectangle{
     position:absolute;
     left: 15px;
-    width: 186px;
-    height:32px;
-    top: 105px;
+    width: 182px;
+    height:25px;
+    top: 110px;
     background:#708c87;
     z-index: 0;
     box-shadow: 2px 2px #000000;
@@ -78,20 +123,20 @@ h3{
     bottom: 8px;
     top:135px;
     background:#adc4c0;
-    padding: 0px 15px 15px 20px;
+    padding: 0px 15px 15px 5px;
     color: #242E35;
     font-size: 16px;
     box-shadow: 2px 2px #000000;
     text-shadow: 1px 1px #9bb0ac;
     z-index: 1;
+    overflow-y: scroll;
+    
 }
 
 .personal_info{
     float:right;
     top: 15px;
     height: 120px;
-    background: #242E35;
-    padding-left: 10px;
 }
 
 .arrow-one{
@@ -109,11 +154,20 @@ h3{
     top:8px;
     right:8px;
     float: right;
-    position: relative;
     background: #708c87;
     width: 105px;
     height: 105px;
     box-shadow: 2px 2px #000000;
+}
+
+.pro_pic{
+    width: 101px;
+    height: 101px;
+    background: url(profile.jpg);
+    background-size: 101px 101px;
+    background-repeat: no-repeat;
+    top: 2px;
+    left: 2px;
 }
 
 .obfuscate { unicode-bidi: bidi-override; direction: rtl; }
