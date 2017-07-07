@@ -81,7 +81,7 @@ h4{
 
 p{
     font-size: 16px;
-    margin-top: 5px;
+    margin-top: 2px;
 }
 
 
@@ -101,15 +101,14 @@ p{
 .contact_links a {
     padding: 5px 0px 2px 20px;
     top: 3px;
-    color: #EEEEE7;
+    color: #242E35;
     font-size: 18px;
-    text-shadow: 1px 1px #435451
 }
 
 #rectangle{
     position:absolute;
     left: 15px;
-    width: 182px;
+    width: 180px;
     height:25px;
     top: 110px;
     background:#708c87;
@@ -128,7 +127,6 @@ p{
     color: #242E35;
     font-size: 16px;
     box-shadow: 2px 2px #000000;
-    text-shadow: 1px 1px #9bb0ac;
     z-index: 1;
     overflow-y: scroll;
     
