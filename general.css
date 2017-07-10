@@ -34,14 +34,13 @@ body{
     h3 { top: -5px; }
  }
 
+h2,h3,.contact_links a,.picture_box,.pro_pic{
+    position:relative;
+}
 
 /* Format for the text on the page */
 h1,a,p,h2,#tab,h3,h4 {
    font-family:'Roboto';
-}
-
-h2,h3,.contact_links a,.picture_box,.pro_pic{
-    position:relative;
 }
 
 h2,h3{
@@ -76,6 +75,7 @@ h3{
     color:#d6d6cf;
 }
 
+/* Format for article content */
 h4{
     margin-top: 7px;
     padding-left: 12px;
@@ -90,13 +90,13 @@ p{
     padding-left: 12px;
 }
 
-
 #article_box{
     float:left;
     margin-right: 0px;
     margin-left: 0px;
 }
 
+/* Content for navegation tabs */
 .contact_links{
     margin-top: 0px;
     width: 185px;
@@ -121,6 +121,18 @@ p{
     box-shadow: 2px 2px #000000;
 }
 
+.arrow-one{
+    position: absolute;
+    bottom: 0px;
+    left:0px;
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 8px solid #adc4c0;
+}
+
+
 #tab{
     position: absolute;
     left: 8px;
@@ -140,17 +152,6 @@ p{
     float:right;
     top: 15px;
     height: 120px;
-}
-
-.arrow-one{
-    position: absolute;
-    bottom: 0px;
-    left:0px;
-    width: 0; 
-    height: 0; 
-    border-left: 5px solid transparent;
-    border-right: 25px solid transparent;
-    border-bottom: 8px solid #adc4c0;
 }
 
 .picture_box{
