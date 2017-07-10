@@ -15,16 +15,12 @@ body{
 @media screen and (max-width: 720px){
     #article_box{ 
         width:94%;
-        margin-right: 3%;
-        margin-left: 3%;
     }
  }
 
 @media screen and (min-width: 720px){
     #article_box{
         width:48%;
-        margin-right: 1%;
-        margin-left: 1%;
     }
  }
 
@@ -81,7 +77,7 @@ h3{
 }
 
 h4{
-    margin-top: 10px;
+    margin-top: 5px;
     margin-bottom: 0px;
     font-size: 20px;
     color:#242E35;
@@ -95,6 +91,8 @@ p{
 
 #article_box{
     float:left;
+    margin-right: 0px;
+    margin-left: 10px;
 }
 
 .contact_links{
