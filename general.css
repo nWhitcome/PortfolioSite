@@ -77,17 +77,20 @@ h3{
 
 /* Format for article content */
 h4{
-    margin-top: 7px;
-    padding-left: 12px;
+    margin-top: 12px;
     margin-bottom: 0px;
-    font-size: 20px;
+    font-size: 26px;
     color:#242E35;
+    padding-left: 6px;
+    padding-right: 6px;
 }
 
 p{
     font-size: 16px;
-    margin-top: 2px;
-    padding-left: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 6px;
+    padding-right: 6px;
 }
 
 #article_box{
@@ -132,6 +135,22 @@ p{
     border-bottom: 8px solid #adc4c0;
 }
 
+#article_image_box{
+    padding-bottom: 3px;
+    padding-top: 3px;
+    padding-left: 6px;
+    padding-right: 12px;
+    display: block;
+    height: auto;
+}
+
+img{
+    padding:2px;
+    max-width: 100%;
+    width:auto;
+    height:auto;
+    border: 2px solid #656c71;
+}
 
 #tab{
     position: absolute;
@@ -145,7 +164,8 @@ p{
     box-shadow: 2px 2px #000000;
     z-index: 1;
     overflow-y: scroll;
-    padding-right: 12px;
+    padding-right: 6px;
+    padding-left: 6px;
 }
 
 .personal_info{
