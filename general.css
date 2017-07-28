@@ -24,16 +24,6 @@ body{
     }
  }
 
-@media screen and (max-width: 400px){
-    h2 { top: 9px; }
-    h3 { top: -10px; }
- }
-
-@media screen and (min-width: 400px){
-    h2 { top: 14px; }
-    h3 { top: -5px; }
- }
-
 h2,h3,.contact_links a,.picture_box,.pro_pic{
     position:relative;
 }
@@ -53,7 +43,7 @@ h2,h3{
 h1{
     margin: 0px;
     left:15px;
-    top:15px;
+    top:30px;
     position: absolute;
     text-align: left;
     color:#EEEEE7;
@@ -64,12 +54,14 @@ h1{
 }
 
 h2{
+    top: 15px;
     margin-top: 0px;
     font-size: 23px;
     color:#EEEEE7;
 }
 
 h3{
+    top: -4px;
     margin-top: 0px;
     font-size: 13px;
     color:#d6d6cf;
@@ -78,7 +70,7 @@ h3{
 /* Format for article content */
 h4{
     margin-top: 10px;
-    margin-bottom: 0px;
+    margin-bottom: -7px;
     font-size: 26px;
     color:#242E35;
     padding-left: 8px;
