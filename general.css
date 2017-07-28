@@ -115,10 +115,10 @@ p{
 
 #rectangle{
     position:absolute;
-    left: 15px;
-    width: 180px;
+    left: 8px;
+    right: 8px;
     height:25px;
-    top: 110px;
+    top: 135px;
     background:#708c87;
     z-index: 0;
     box-shadow: 2px 2px #000000;
@@ -159,7 +159,7 @@ img{
     left: 8px;
     right: 8px;
     bottom: 8px;
-    top:135px;
+    top:160px;
     background:#adc4c0;
     color: #242E35;
     font-size: 16px;
